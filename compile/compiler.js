@@ -5,6 +5,9 @@ class Compiler {
     if(typeof compiler === "string") {
       this.compiler = require(compiler);
     }
+	else if(typeof compiler === "object") {
+      this.compiler = compiler;
+    }
     else {
       throw new Error('compiler must be a string or a module');
     }
