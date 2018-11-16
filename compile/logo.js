@@ -51,7 +51,7 @@ function transformLine(angle, scala, axoim, rules, iterations) {
 
 
     if(addition !== undefined) {
-      output += ` ${addition}\n`;
+      output += ` ${addition}`;
     }
   }
 
