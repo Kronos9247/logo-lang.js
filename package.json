@@ -1,0 +1,11 @@
+{
+  "name": "logo-lang",
+  "version": "0.0.1",
+  "description": "",
+  "main": "logo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kronos9247",
+  "license": "MIT"
+}
