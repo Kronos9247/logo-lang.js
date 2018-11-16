@@ -1,5 +1,5 @@
 const logo = require('logo-lang')
-var compiler = new logo.Compiler('./logo');
+var compiler = new logo.Compiler(logo.LSystem);
 
 const lsystem = {
   angle: 90,
