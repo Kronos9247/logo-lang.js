@@ -1,4 +1,4 @@
-const logo = require('./logo')
+const logo = require('logo-lang')
 var compiler = new logo.Compiler('./logo');
 
 const lsystem = {
